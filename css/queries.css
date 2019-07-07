@@ -3,7 +3,9 @@
         width: 90%;
         margin: 0 auto;
     }
-
+    .hero .hero-content {
+        opacity: 0;
+    }
     .intro-content {
         display: inline-block;
         width: 70%;
@@ -24,8 +26,14 @@
         padding-left: 25px;
     }
 
+  .hero {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(../img/hero-mobile-min.jpg);
+  }
     .hero .hero-content {
         padding-top: 50%;
+        opacity: 1;
     }
 
     .header-nav {
